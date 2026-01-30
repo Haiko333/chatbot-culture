@@ -1,0 +1,23 @@
+# Fichiers compilés Java
+*.class
+out/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Fichiers temporaires
+*.tmp
+*.bak
+*~
+*.swp
