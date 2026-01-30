@@ -1,5 +1,3 @@
-import jdk.jshell.execution.Util;
-
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -55,7 +53,17 @@ public class Chatbot {
         String entreeUtilisateur = ""; // la dernière entrée de l'utilisateur
         String derniereQuestion = ""; // La derniere question posé par l'utilisateur
 
+
         Scanner lecteur = new Scanner(System.in);
+
+        System.out.println("  _____ _           _   _           _   ");
+        System.out.println(" / ____| |         | | | |         | |  ");
+        System.out.println("| |    | |__   __ _| |_| |__   ___ | |_ ");
+        System.out.println("| |    | '_ \\ / _` | __| '_ \\ / _ \\| __|");
+        System.out.println("| |____| | | | (_| | |_| |_) | (_) | |_ ");
+        System.out.println(" \\_____|_| |_|\\__,_|\\__|_.__/ \\___/ \\__|");
+        System.out.println("__________________________________________");
+        
         System.out.println();
         System.out.print("> ");
         System.out.println(MESSAGE_BIENVENUE);
