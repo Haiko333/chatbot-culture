@@ -1,4 +1,4 @@
-# Projet Chatbot — SAE BUT Info
+# Projet Chatbot - SAE BUT Info
 
 Chatbot en Java répondant à des questions de culture générale. Il s’appuie sur un index de réponses, un thésaurus et des mots-outils pour retrouver et adapter les réponses, et peut apprendre de nouvelles réponses.
 
