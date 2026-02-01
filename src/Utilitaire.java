@@ -1,4 +1,3 @@
-import java.awt.*;
 import java.io.BufferedWriter;
 import java.io.FileInputStream;
 import java.io.FileWriter;
@@ -349,7 +348,7 @@ public class Utilitaire {
         }
 
         int count = 0;
-        int current = v.getFirst();
+        int current = v.get(0);
 
         // parcourt chaque i dans liste v
         for (Integer i : v) {
@@ -403,7 +402,7 @@ public class Utilitaire {
                 if (result.get(j) < result.get(j-1)) {
                     int tmp = result.get(j); // save j dans tmp
 
-                    result.set(j, result.get( - 1)); // decale gauche vers la droite
+                    result.set(j, result.get(j - 1)); // decale gauche vers la droite
                     result.set(j-1, tmp); // met tmp ( j ) a gauche
 
                     onAPermute = true; // on a permuter
